@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Booking_System</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\image\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\image\426fbac8-4bac-42dd-9b00-53403a1ca0112.jpg" />
+    <None Include="wwwroot\image\4a636627-c019-4b6b-92d4-7f71f8f406d41.jpg" />
+    <None Include="wwwroot\image\57cd1466-e1f0-4115-89fd-9486b0b355baslider-6.jpg" />
+    <None Include="wwwroot\image\64546a97-647b-42c5-9861-95e15a54f9ffAbdulbadiaismai.pdf" />
+    <None Include="wwwroot\image\66b092fa-cc68-48f7-915b-d9c36052ecdacv80696966_abdulbadia-ismail_full-stack-web-developerback.pdf" />
+    <None Include="wwwroot\image\780044f0-a48e-4a29-9bb9-4d57c3e892cbScreenshot 2022-11-19 024500.png" />
+    <None Include="wwwroot\image\78219827-7871-4cbd-b116-c6fa2c3b56fdimage_5.jpg" />
+    <None Include="wwwroot\image\7a152ba7-9819-4c0d-9a31-bd942456967ehero_2.jpg" />
+    <None Include="wwwroot\image\8276ac74-54d2-4825-8091-4f9f738136ddimg_2.jpg" />
+    <None Include="wwwroot\image\8c35c7dd-4096-4ef8-91f7-9039e24ac676AbdulbadiaismailCv.pdf" />
+    <None Include="wwwroot\image\8e9f23d8-43a9-4715-84f8-e401ead31168Assessment Assignment for Full Stack Developer.pdf" />
+    <None Include="wwwroot\image\96c9b986-d443-4625-af2b-cdcc29b57820hero_4.jpg" />
+    <None Include="wwwroot\image\aed26781-ba24-4997-aeca-f3c5729edc2fAssessment Assignment for Full Stack Developer.pdf" />
+    <None Include="wwwroot\image\e28e7804-cb36-4905-8b39-8f98d92321e4cv80696966_abdulbadia-ismail_full-stack-web-developerback.pdf" />
+    <None Include="wwwroot\image\e3a7747d-d090-4730-92de-3f36bc005473gallery3.jpg" />
+    <None Include="wwwroot\image\f3cde985-3665-4528-a181-e0b8a6667841img_1.jpg" />
+    <None Include="wwwroot\image\f435a528-c523-44ee-bb3f-d5923c663fb9img_4.jpg" />
+  </ItemGroup>
+
+</Project>
